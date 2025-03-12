@@ -38,14 +38,14 @@ In general, my Political Science training grounds my approach to synthetic contr
 These studies often grapple with the same issues of **state heterogeneity, limited units, and staggered policy adoption** that also characterize the sports betting industry.  By grounding my synthetic control approach in this well-established body of political science research, I bring a **rigorous, tested methodology** to sports betting analytics. 
 
 ### State-Level Panel Datasets Available
-To build credible and rich pre-treatment models, we can use **state-level panel datasets** frequently used in political science research. I provide some resources here:  
+To build credible and rich pre-treatment models, we can use **state-level panel datasets**, some frequently used in political science research. I provide some resources here:  
 
 | Dataset Name | Description | Example Use Case in Sports Betting Analysis |
 |--------------|-------------|---------------------------------------------|
-| **U.S. Census Bureau** | State-level population, demographics, median income, education levels | Control for demographic and economic factors that affect betting behavior |
-| **Bureau of Labor Statistics (BLS)** | Employment rates, industry breakdowns, consumer spending data | Adjust for economic conditions influencing disposable income for betting |
-| **State Policy Innovation and Diffusion (SPID) Database** | Records of state policy adoptions across domains, including gambling | Track when and where betting regulations are implemented |
-| **Correlates of State Policy Project (CSPP)** | Broad economic, political, and social indicators for U.S. states over time | Include political and social environment as predictors of betting activity |
-| **National Conference of State Legislatures (NCSL)** | Database of enacted and proposed state legislation, including gambling laws | Identify and time betting-related laws and regulatory changes |
-| **Uniform Crime Reporting (UCR) Program** | State-level crime statistics | Explore potential links between gambling regulation and public safety outcomes |
-| **State-Specific Sports Team Data** | Presence of professional and college teams, fan base size | Account for "home team" effects on betting volume and engagement |
+|[ **U.S. Census Bureau**](https://www.census.gov/data/datasets.html) | State-level population, demographics, median income, education levels | Control for demographic and economic factors |
+| [**Bureau of Labor Statistics (BLS)**] (https://www.bls.gov/data/)| Employment rates, industry breakdowns, consumer spending data | Adjust for economic conditions |
+|[**BEA Regional Economic Accounts**] (https://www.bea.gov/data/economic-accounts/regional) | Geographic distribution of US economic activity and growth| Adjust for economic contexts |
+| **Correlates of State Policy Project (CSPP)** (https://ippsr.msu.edu/public-policy/correlates-state-policy)| Policy outputs and political, social, or economic factors that may influence policy differences |  Account for inter-state policy diffusion patterns and social contexts |
+| [**State Policy Innovation and Diffusion (SPID) Database**](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CVYSR7) | Records of state policy adoptions across domains | Account for inter-state policy diffusion patterns |
+| [**National Conference of State Legislatures (NCSL)**] (https://www.ncsl.org/technology-and-communication/ncsl-50-state-searchable-bill-tracking-databases)| Database of enacted and proposed state legislation | Identify and time revelant laws and regulatory changes |
+| **State-Specific Sports Team Data** | Presence of professional and college teams, fan base size, team historical stats, etc. | Sport and team specific influences to fandom |
