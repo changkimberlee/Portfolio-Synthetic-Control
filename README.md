@@ -42,10 +42,10 @@ To build credible and rich pre-treatment models, we can use **state-level panel 
 
 | Dataset Name | Description | Example Use Case in Sports Betting Analysis |
 |--------------|-------------|---------------------------------------------|
-|[ **U.S. Census Bureau**](https://www.census.gov/data/datasets.html) | State-level population, demographics, median income, education levels | Control for demographic and economic factors |
-| [**Bureau of Labor Statistics (BLS)**] (https://www.bls.gov/data/)| Employment rates, industry breakdowns, consumer spending data | Adjust for economic conditions |
-|[**BEA Regional Economic Accounts**] (https://www.bea.gov/data/economic-accounts/regional) | Geographic distribution of US economic activity and growth| Adjust for economic contexts |
-| **Correlates of State Policy Project (CSPP)** (https://ippsr.msu.edu/public-policy/correlates-state-policy)| Policy outputs and political, social, or economic factors that may influence policy differences |  Account for inter-state policy diffusion patterns and social contexts |
+| [**U.S. Census Bureau**](https://www.census.gov/data/datasets.html) | State-level population, demographics, median income, education levels | Control for demographic and economic factors |
+| [**Bureau of Labor Statistics (BLS)**](https://www.bls.gov/data/) | Employment rates, industry breakdowns, consumer spending data | Adjust for economic conditions |
+| [**BEA Regional Economic Accounts**](https://www.bea.gov/data/economic-accounts/regional) | Geographic distribution of US economic activity and growth| Adjust for economic contexts |
+| [**Correlates of State Policy Project (CSPP)**](https://ippsr.msu.edu/public-policy/correlates-state-policy) | Policy outputs and political, social, or economic factors that may influence policy differences |  Account for inter-state policy diffusion patterns and social contexts |
 | [**State Policy Innovation and Diffusion (SPID) Database**](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CVYSR7) | Records of state policy adoptions across domains | Account for inter-state policy diffusion patterns |
-| [**National Conference of State Legislatures (NCSL)**] (https://www.ncsl.org/technology-and-communication/ncsl-50-state-searchable-bill-tracking-databases)| Database of enacted and proposed state legislation | Identify and time revelant laws and regulatory changes |
+| [**National Conference of State Legislatures (NCSL)**](https://www.ncsl.org/technology-and-communication/ncsl-50-state-searchable-bill-tracking-databases)| Database of enacted and proposed state legislation | Identify and time revelant laws and regulatory changes |
 | **State-Specific Sports Team Data** | Presence of professional and college teams, fan base size, team historical stats, etc. | Sport and team specific influences to fandom |
