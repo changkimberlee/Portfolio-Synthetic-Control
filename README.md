@@ -40,7 +40,7 @@ These studies often grapple with the same issues of **state heterogeneity, limit
 ### State-Level Panel Datasets Available
 To build credible and rich pre-treatment models, we can use **state-level panel datasets**, some frequently used in political science research. I provide some resources here:  
 
-| Dataset Name | Description | Example Use Case in Sports Betting Analysis |
+| Dataset Name | Description | Example Use |
 |--------------|-------------|---------------------------------------------|
 | [**U.S. Census Bureau**](https://www.census.gov/data/datasets.html) | State-level population, demographics, median income, education levels | Control for demographic and economic factors |
 | [**Bureau of Labor Statistics (BLS)**](https://www.bls.gov/data/) | Employment rates, industry breakdowns, consumer spending data | Adjust for economic conditions |
