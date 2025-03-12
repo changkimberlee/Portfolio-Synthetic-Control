@@ -1,7 +1,18 @@
 # Synthetic Control Example  
 This project demonstrates how I would approach using **synthetic control methods** to evaluate the impact of promotions, feature launches, or policy changes in the sports betting industry.  
 
-Sports betting in the U.S. is largely regulated at the **state level**. As more states legalize sports betting and adopt varying regulations, companies need **robust ways to assess how these changes affect user engagement, revenue, and market dynamics**.  seIn addition to regulatory variation, **sports fandom is heavily shaped by state-level factors**, including home team effects and regional preferences, leading to the need for state-level strategies to promotions and feature launch. 
+Sports betting in the U.S. is largely regulated at the **state level**. As more states legalize sports betting and adopt varying regulations, companies need **robust ways to assess how these changes affect user engagement, revenue, and market dynamics**.  In addition to regulatory variation, **sports fandom is heavily shaped by state-level factors**, including home team effects and regional preferences, leading to the need for state-level strategies to promotions and feature launch. 
+
+I [created hypothetical data](https://github.com/changkimberlee/Portfolio-Synthetic-Control/blob/main/synthetic_control_data.ipynb) of betting activities (volume) in four states (NJ, PA, MI and IL) as well as state-level features such as Population, Median_Income, Unemployment_Rate, Regulatory_Strictness, Population_Conservativeness, Sports_Popularity_Index and Home_Team_Historical_Winrate. I created a daily panel from 2022-01-01 to 2023-06-30. I assume that there was a promotion launched 2023-03-01 only targeted to users in New Jersey. I was to assess the impact of this promotion on Bet Volume in New Jersey, using the synthetic control approach. 
+
+[Here](https://github.com/changkimberlee/Portfolio-Synthetic-Control/blob/main/synthetic_control_model.ipynb) is my code for 1. **Creating the synthetic control** using ridge regression (with cross-validation for hyperparameter tuning)
+; 2. **Assessing pre-treatment balance** of bet volume and state-level features between actual and synthetic units; 3. **Assessing and plotting short- and long-term ATT and cumulative effects**
+
+This is an illustration of the hypothetical/synthetic panel of betting volume that I created:
+![Alt text]([path/to/your/image](https://github.com/changkimberlee/Portfolio-Synthetic-Control/blob/main/synthetic_data.png))
+
+This is the plot of the synthetic control and treatment effect:
+![Alt text]([path/to/your/image](https://github.com/changkimberlee/Portfolio-Synthetic-Control/blob/main/synthetic_control_results.png))
 
 ## The Challenge: Causal Inference at the State Level  
 Causal inference at the state level is critical for sports betting companies to make informed decisions about:  
