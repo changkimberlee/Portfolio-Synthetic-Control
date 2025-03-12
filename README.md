@@ -39,7 +39,7 @@ By comparing the **actual post-intervention outcomes** in the treated state to t
   
 Making synthetic control the appropriate solution to these cases in the sports betting industry. 
 
-## Leveraging Political Science for Synthetic Control  
+### Leveraging My Political Science Experience for Synthetic Control  
 In general, my Political Science training grounds my approach to synthetic control. **Political science literature, datasets, and methodological innovations** has led the development and application of synthetic control methods in U.S. state-level policy evaluation.  Political scientists have used synthetic control to study the impact of diverse state-level policies, including:  
 - Economic policies (e.g., minimum wage increases)  
 - Public health interventions (e.g., tobacco control laws)  
@@ -48,7 +48,7 @@ In general, my Political Science training grounds my approach to synthetic contr
 
 These studies often grapple with the same issues of **state heterogeneity, limited units, and staggered policy adoption** that also characterize the sports betting industry.  By grounding my synthetic control approach in this well-established body of political science research, I bring a **rigorous, tested methodology** to sports betting analytics. 
 
-### State-Level Panel Datasets Available
+#### State-Level Panel Datasets Available
 To build credible and rich pre-treatment models, we can use **state-level panel datasets**, some frequently used in political science research. I provide some resources here:  
 
 | Dataset Name | Description | Example Use |
