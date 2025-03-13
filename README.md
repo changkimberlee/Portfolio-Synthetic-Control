@@ -14,6 +14,9 @@ This is an illustration of the hypothetical/synthetic panel of betting volume th
 This is the plot of the synthetic control and treatment effect:
 ![Alt text](../main/synthetic_control_results.png)
 
+Approach based on: [Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The augmented synthetic control method. Journal of the American Statistical Association, 116(536), 1789-1803.](https://www.tandfonline.com/doi/abs/10.1080/01621459.2021.1929245)
+
+
 ## The Challenge: Causal Inference at the State Level  
 Causal inference at the state level is critical for sports betting companies to make informed decisions about:  
 - Where and how to allocate marketing resources. How to design state-specific promotions
